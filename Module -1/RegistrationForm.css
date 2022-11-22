@@ -1,0 +1,71 @@
+.screen_div {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+body {
+    background-image: url('https://w0.peakpx.com/wallpaper/413/613/HD-wallpaper-green-abstract-background-material-design-luxurious-green-background-golden-lines-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.reg_form_box {
+
+    background-color: rgba(237, 243, 243, 0.356);
+    margin-top: 100px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 15px;
+    height: 360px;
+    width: 430px;
+    box-shadow: 0px -1px 49px 26px rgba(0, 0, 0, 0.17);
+}
+
+.text_box_main_div {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #464447;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 280px;
+    border: 0px solid #464447;
+    height: 17px;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.fname_textbox {
+    width: 100px;
+}
+
+.lname_textbox {
+    width: 105px;
+}
+
+.radio_div {
+    display: flex;
+    width: 50px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.radio_button {
+    width: 50px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.anchor_tag {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onKeyUp Events</title>
+</head>
+<body>
+    <input type="text" id="text-box" onkeydown="onKeydown()" onkeyup="onKeyUp()"/>
+    <script>
+        function onKeyUp(){
+            document.getElementById("text-box").style.backgroundColor = "lightgray"
+        }
+
+        function onKeydown(){
+            document.getElementById("text-box").style.backgroundColor = "white"
+        }
+    </script>
+</body>
+</html>

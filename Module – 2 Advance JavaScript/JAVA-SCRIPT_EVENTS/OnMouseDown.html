@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onmousedown Events</title>
+   
+</head>
+<body>
+    <div id="imgcls" onmousedown="mouseDown()" onmouseup="mouseUp()">
+    <img src="https://e7.pngegg.com/pngimages/490/824/png-clipart-product-design-logo-brand-trademark-javascript-logo-text-trademark-thumbnail.png"/>
+</div>
+
+    <script>
+        function mouseDown(){
+            document.getElementById("imgcls").style.backgroundColor="blue"
+        }
+
+        function mouseUp(){
+            document.getElementById("imgcls").style.backgroundColor="white"
+        }
+    </script>
+</body>
+</html>

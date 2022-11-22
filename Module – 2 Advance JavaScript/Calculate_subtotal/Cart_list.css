@@ -1,0 +1,41 @@
+.white_box {
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+.imgcls {
+    border: 2px solid rgb(43, 55, 230);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.cart_inner_div {
+    background-color: rgb(240, 228, 228);
+    display: flex;
+}
+
+input {
+    text-align: center;
+}
+
+.table_hadding {
+    font-size: 25px;
+    color: white;
+    background-color: rgba(35, 15, 219, 0.753);
+}
+
+table td {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+sub_total_main {
+    margin-left: 100px;
+}
+
+.first_row {
+    background-color: rgba(191, 162, 218, 0.438);
+    border-radius: 25px;
+}
